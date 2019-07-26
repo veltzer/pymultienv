@@ -2,8 +2,8 @@ import setuptools
 
 setuptools.setup(
     name='pymultienv',
-    version='0.0.27',
-    description='pymultienv is a command to help you deal with multiple git repositories',
+    version='0.0.1',
+    description='pymultienv is a command to help you deal with multiple python environments',
     long_description='this is the long description of pymultienv',
     url='https://veltzer.github.io/pymultienv',
     download_url='https://github.com/veltzer/pymultienv',
