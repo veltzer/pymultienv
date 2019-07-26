@@ -3,6 +3,5 @@ requirements3_dev = [
 ]
 
 requirements3 = [
-    'click',
-    'gitpython',
+    'pytconf',
 ]

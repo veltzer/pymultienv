@@ -1,2 +1,0 @@
-GitPython documentation
-- https://gitpython.readthedocs.io/en/stable/index.html

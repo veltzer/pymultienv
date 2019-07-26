@@ -1,12 +1,12 @@
 import setuptools
 
 setuptools.setup(
-    name='pymultigit',
+    name='pymultienv',
     version='0.0.27',
-    description='pymultigit is a command to help you deal with multiple git repositories',
-    long_description='this is the long description of pymultigit',
-    url='https://veltzer.github.io/pymultigit',
-    download_url='https://github.com/veltzer/pymultigit',
+    description='pymultienv is a command to help you deal with multiple git repositories',
+    long_description='this is the long description of pymultienv',
+    url='https://veltzer.github.io/pymultienv',
+    download_url='https://github.com/veltzer/pymultienv',
     author='Mark Veltzer',
     author_email='mark.veltzer@gmail.com',
     maintainer='Mark Veltzer',
@@ -27,7 +27,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'pymultigit=pymultigit.mg:cli',
+            'pymultienv=pymultienv.me:cli',
         ],
     },
 )
