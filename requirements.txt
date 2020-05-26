@@ -1,6 +1,6 @@
 # production
-click
-gitpython
 pyfakeuse
 # development tools
+pyclassifiers
 pypitools
+pydmt

@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='pymultienv',
-    version='0.0.1',
+    version='0.0.2',
     description='pymultienv is a command to help you deal with multiple python environments',
     long_description='this is the long description of pymultienv',
     url='https://veltzer.github.io/pymultienv',
@@ -21,7 +21,6 @@ setuptools.setup(
     keywords='git python repositories multiple',
     packages=setuptools.find_packages(),
     install_requires=[
-        'click',
         'gitpython',
         'pyfakeuse',
     ],
