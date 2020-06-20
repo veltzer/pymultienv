@@ -89,3 +89,4 @@ celerybeat-schedule
 /doc/build
 
 *.stamp
+/node_modules/
