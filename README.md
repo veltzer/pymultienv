@@ -20,3 +20,5 @@
 pymultienv is a command to help you deal with multiple python environments
 
 project website: <https://veltzer.github.io/pymultienv>
+
+
