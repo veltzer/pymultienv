@@ -16,6 +16,8 @@
 ![Downloads](https://pepy.tech/badge/pymultienv/month)
 ![Downloads](https://pepy.tech/badge/pymultienv/week)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pymultienv/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pymultienv?targetFile=requirements.txt)
+
 
 
 pymultienv is a command to help you deal with multiple python environments
