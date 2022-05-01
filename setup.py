@@ -57,5 +57,5 @@ setuptools.setup(
     entry_points={"console_scripts": [
         'pymultienv=pymultienv.me:cli',
     ]},
-    python_requires=">=3.7",
+    python_requires=">=3.9",
 )
