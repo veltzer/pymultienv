@@ -6,7 +6,7 @@ console_scripts = [
     "pymultienv=pymultienv.me:cli",
 ]
 
-run_requires = [
+install_requires = [
     "gitpython",
     "pyfakeuse",
 ]
