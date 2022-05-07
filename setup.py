@@ -33,12 +33,6 @@ setuptools.setup(
     platforms=[
         'python3',
     ],
-    install_requires=[
-        'gitpython',
-        'pyfakeuse',
-    ],
-    extras_require={
-    },
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
