@@ -6,10 +6,12 @@ console_scripts = [
     "pymultienv=pymultienv.me:cli",
 ]
 dev_requires = [
-    "pyclassifiers",
     "pypitools",
-    "pydmt",
-    "Sphinx",
+]
+config_requires = [
+    "pyclassifiers",
+]
+make_requires = [
     "pymakehelper",
 ]
 install_requires = [
