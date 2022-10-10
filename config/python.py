@@ -9,6 +9,8 @@ config_requires = [
 ]
 make_requires = [
     "pymakehelper",
+    "pyclassifiers",
+    "pydmt",
 ]
 install_requires = [
     "gitpython",
