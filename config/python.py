@@ -1,22 +1,25 @@
-console_scripts = [
+from typing import List
+
+
+console_scripts: List[str] = [
     "pymultienv=pymultienv.me:cli",
 ]
-dev_requires = [
-    "pypitools",
-]
-config_requires = [
+config_requires: List[str] = [
     "pyclassifiers",
 ]
-make_requires = [
+dev_requires: List[str] = [
+    "pypitools",
+]
+install_requires: List[str] = [
+    "gitpython",
+    "pyfakeuse",
+]
+make_requires: List[str] = [
     "pymakehelper",
     "pyclassifiers",
     "pydmt",
 ]
-install_requires = [
-    "gitpython",
-    "pyfakeuse",
-]
-test_requires = [
+test_requires: List[str] = [
     "pylint",
     "pytest",
     "pytest-cov",
@@ -24,3 +27,4 @@ test_requires = [
     "flake8",
     "mypy",
 ]
+requires = config_requires + install_requires + make_requires + test_requires
