@@ -4,11 +4,11 @@ from typing import List
 console_scripts: List[str] = [
     "pymultienv=pymultienv.me:cli",
 ]
-config_requires: List[str] = [
-    "pyclassifiers",
-]
 dev_requires: List[str] = [
     "pypitools",
+]
+config_requires: List[str] = [
+    "pyclassifiers",
 ]
 install_requires: List[str] = [
     "gitpython",
