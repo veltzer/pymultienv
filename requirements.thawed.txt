@@ -1,12 +1,10 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
-pyclassifiers
 gitpython
-pyfakeuse
-pymakehelper
+mypy
+pyclassifiers
 pydmt
+pyfakeuse
 pylint
+pymakehelper
 pytest
 pytest-cov
-pyflakes
-flake8
-mypy

@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pymultienv=pymultienv.me:cli",
-]
+scripts: dict[str,str] = {
+    "pymultienv": "pymultienv.me:cli",
+}
 
 config_requires: list[str] = [
     "pyclassifiers",
