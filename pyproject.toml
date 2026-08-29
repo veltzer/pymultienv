@@ -37,6 +37,14 @@ dependencies = [
     "pyfakeuse",
 ]
 
+[dependency-groups]
+dev = [
+    "mypy",
+    "pylint",
+    "pytest",
+    "ruff",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/veltzer/pymultienv"
 "Bug Tracker" = "https://github.com/veltzer/pymultienv/issues"
